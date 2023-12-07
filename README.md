@@ -6,4 +6,5 @@ Each project will have the same state management => **Riverpod**
 
 list of projects.
 
-*  [password validation](password_validation/README.md)
+* [password validation](password_validation/README.md)
+* [dark_light theme](dark_light_mode/README.md)
