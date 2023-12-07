@@ -9,6 +9,6 @@ class ThemeModeController extends _$ThemeModeController {
   ThemeMode build() => ThemeMode.dark;
 
   void toggleThemeMode() {
-    state == ThemeMode.light ? state = ThemeMode.dark : state = ThemeMode.light;
+    state = state == ThemeMode.light ? ThemeMode.dark : ThemeMode.light;
   }
 }

@@ -26,7 +26,7 @@ class MainApp extends ConsumerWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('toggle theme'),
+              const Text('toggle theme mode'),
               const SizedBox(height: 12),
               ElevatedButton(
                 child: const Text('change color theme'),
